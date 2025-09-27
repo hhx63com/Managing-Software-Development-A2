@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introduction of Element Quantity and Element Attachment</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header{
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav{
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a{
+            color: #1fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            padding: 0 20px;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+        .window{
+        right: 1px;
+        padding: 15px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+        footer{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+        .image_sup{
+            position: fixed;
+            right: 20px;
+            top: 120px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .image_sup img{
+            width: 1cm;
+            height: 1cm;
+        }
+        .href_sidebar{
+            position: fixed;
+            right: 20px;
+            top: 650px;
+            background: rgba(128, 128, 128, 0.5);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .href_sidebar a{
+            display: block;
+            color: blue;
+            margin: 10px;
+            padding: 8px 15px;
+            background: rgba(150, 150, 150, 0.5);
+            text-align: center;
+        }
+		.element_name{
+            font-size: 10px;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Genshin Impact Higher Element Reaction Theory</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="reactions.html">Introduction</a>
+        <a href="elemental-mechanics.html">Elemental Reaction Theory</a>
+        <a href="characters.html">Related figures</a>
+    </nav>
+
+    <h2>Introduction of Element Quantity and Element Attachment</h2>
+    <p>Element amount refers to the strength of element attachment, which affects the duration and effect of element reaction. Element attachment refers to the existing state of elements on the target.</p>
+    <p>Some environments or attacks by fire/water/grass/thunder/ice elements will leave "traces" of the corresponding elements to make the target attach elements, and the element reaction occurs when this "trace" meets other elements.</p>
+    <p>For example, after the fire element is attached to the target, it can trigger a reaction with other elements (such as ice and water).</p>
+    <p>In particular, the attachment of ice elements will reduce the movement speed and attack speed.</p>
+    <img src="image/Element quantity and element attachment.jpg" alt="Element quantity and element attachment">
+    <p>Element attachment always carries the amount of elements, which will be naturally consumed over time or consumed by element reaction.</p>
+    <p>The "strong and weak elements" are often used to describe the amount of elements, in which the amount of elements of "strong elements" is twice that of "weak elements".</p>
+
+    <button class="window" onclick="showAlert()">Next Page</button>
+    <script>
+        function showAlert() {
+            alert("It's still in production, please wait for the follow-up and new ones.");
+        }
+    </script>
+
+
+    <div class="image_sup">
+        <img src="image/huo.jpg" alt="Cryo">
+        <span class="element_name">Pyro</span>
+
+        <img src="image/shui.jpg" alt="Icon 2">
+		<span class="element_name">Hydro</span>
+
+        <img src="image/feng.jpg" alt="Icon 3">
+		<span class="element_name">Anemo</span>
+
+        <img src="image/lei.jpg="Icon 4">
+		<span class="element_name">Electro</span>
+
+        <img src="image/cao.jpgt="Icon 5">
+		<span class="element_name">Dendro</span>
+
+        <img src="image/bing.jpgt="Icon 6">
+		<span class="element_name">Cryo</span>
+
+        <img src="image/yan.jpgt="Geo">
+		<span class="element_name">Geo</span>
+
+    </div>
+
+
+    <div class="href_sidebar">
+        <a href="home.html">Home</a>
+        <a href="reactions.html">Introduction</a>
+        <a href="characters.html">Related figures</a>
+    </div>
+
+    <footer>
+        <p>Information source: "Miyou Society" App</p>
+    </footer>
+
+</body>
+</html>
